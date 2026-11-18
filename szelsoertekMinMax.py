@@ -19,5 +19,13 @@ def legnagyobb(veletlenek):
             legnagyobb = i
     return legnagyobb
 
+def negativszamok(veletlenek):
+    count = 0
+    for i in veletlenek:
+        if i < 0:
+            count += 1
+    return count
+
 print(f"A legkisebb szám a listában: {legkisebb(szamok)}")
 print(f"A legnagyobb szám a listában: {legnagyobb(szamok)}")
+print(f"A negatív számok száma a listában: {negativszamok(szamok)}")
