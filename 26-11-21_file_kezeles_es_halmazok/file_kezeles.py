@@ -25,7 +25,7 @@ for sor in lista:
         auto_km += km_a_napon
     if honap_napja == adott_nap:
         összkm += km_a_napon
-print(f"Ez az autó {utakszama} alkalommal volt úton és {auto_km} km-t tett meg a hónap során.")
+print(f"A megadott {keresett_rendszam} rendszámú autó {utakszama} alkalommal volt úton és {auto_km} km-t tett meg a hónap során.")
 print(f"A hónap {adott_nap}. napján összesen {összkm} km-t tett meg a flotta.")
 
 
